@@ -7,6 +7,7 @@ body{
     background-color: white;
     width: 30%;
     height: 750px;
+    
 }
 .Post-header{
     display: flex;
@@ -15,6 +16,10 @@ body{
     height: 30px;
     width: auto; 
     border-bottom-style: double gray;
+
+}
+.derecha{
+    margin-left: 405git add .px;
 }
 #Foto-per{
     border-radius: 90%;
@@ -31,6 +36,5 @@ body{
 .Post-icons:nth-child(2){
     padding-right: 10px;
 }
-.Post-header{
-    justify-content: space-between;
-}
+
+
