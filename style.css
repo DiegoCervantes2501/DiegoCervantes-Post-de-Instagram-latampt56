@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    margin: auto;
+}
+
+.post{
+    background-color: white;
+    width: 30%;
+    height: 750px;
+}
+.Post-header{
+    display: flex;
+    font-family: "Libertinus Mono", monospace;;
+    font-size: small;
+    height: 30px;
+    width: auto; 
+    border-bottom-style: double gray;
+}
+#Foto-per{
+    border-radius: 90%;
+}
+#texto{
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+.Post-icons{
+    justify-content: space-between;
+    display: flex;
+}
+.Post-icons:nth-child(2){
+    padding-right: 10px;
+}
+.Post-header{
+    justify-content: space-between;
+}
