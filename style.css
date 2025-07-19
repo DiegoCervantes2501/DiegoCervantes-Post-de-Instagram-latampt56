@@ -1,40 +1,28 @@
 body{
-    background-color: black;
+    background-color: gray;
+     font-family: "Libertinus Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+.usuario{
+    display: flex;
+}
+.post-header{
+    display:flex;
+    justify-content: space-between;
+}
+#post{
+    background-color: white;
+    width: 500px;
+    height: 850px;
     margin: auto;
 }
-
-.post{
-    background-color: white;
-    width: 30%;
-    height: 750px;
-    
-}
-.Post-header{
-    display: flex;
-    font-family: "Libertinus Mono", monospace;;
-    font-size: small;
-    height: 30px;
-    width: auto; 
-    border-bottom-style: double gray;
-
-}
-.derecha{
-    margin-left: 405px;
-}
-#Foto-per{
-    border-radius: 90%;
-}
-#texto{
-    padding-top: 25px;
-    padding-left: 10px;
+#perfil{
+    border-radius: 100%;
 }
 
 .Post-icons{
+    display:flex;
     justify-content: space-between;
-    display: flex;
 }
-.Post-icons:nth-child(2){
-    padding-right: 10px;
-}
-
-
